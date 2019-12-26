@@ -1,0 +1,148 @@
+.body {
+    /* background-color: gray; */
+}
+.text_family{
+    font-family: serif;
+}
+.header{
+  position: absolute;
+  background:linear-gradient(-17deg,#3f3f3f 45%,#d8d8d8 40%)  ;
+    /* background-color: #c1c7c3; */
+    height: 100%;
+    width: 100%;
+    /* overflow-y: hidden; */
+overflow-x: hidden;
+}
+.text_size {
+    font-size: 10px;
+    color: aliceblue;
+}
+.bg_cl {
+    /* background-color: #636569; */
+
+}
+/* body {
+    height: 100%;
+    background-color: midnightblue;
+} */
+
+/* //Glyp */
+.glyp {
+  font-size:36px;
+  color:#ffd933;
+  position: relative;
+  top: 70px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.left,
+.right {
+  width: 55%;
+  height: 100%;
+  top: 0;
+  transform: skewX(-8deg);
+  overflow: hidden;
+}
+.left {
+  position: relative;
+  left: -5%;
+}
+.right {
+  position: absolute;
+  right: -5%;
+}
+.left .inner,
+.right .inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: skewX(8deg);
+}
+.left .inner {
+  margin-left: 9%;
+}
+.right .inner {
+    background-color: #636569;
+  margin-left: -9%;
+}
+
+/* //cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius:20px;
+  background-color: #3f3f3f;
+  height: 242px;
+  transition: 0.3s;
+  width: 60%;
+  position: relative;
+  left: 250px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius:20px;
+  background-color: #3f3f3f;
+  height: 242px;
+  transition: 0.3s;
+  width: 60%;
+  position: relative;
+  left: 250px;
+
+}
+.card2-details{
+  width: 97px;
+ position: relative;
+  left: 37%;
+ top: 40px;
+ text-align: center;
+ color:aliceblue;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-details {
+  color:white;
+
+}
+/* //corner */
+.rcorners {
+  border-radius: 20px 110px 110px 20px;
+  background: #ffd933;
+    padding: 20px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    right: 17px;
+  }
+  .top {
+    position: relative;
+    height: 50px;
+    width: 60%;
+    border-top-right-radius: 260px;
+    border-top-left-radius: 260px;
+    /* border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px; */
+    /* border-radius: 42px 110px 110px 42px; */
+
+    background-color: #ffd933;
+    left: 20%;
+    top:75px;
+  }
+  .bottom {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    background-color: #ffd933;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 55px;
+  }
+  
